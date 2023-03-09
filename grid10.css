@@ -1,0 +1,40 @@
+.item-1 {
+    background-color: blue;
+}
+.item-2 {
+    background-color: blue;
+}
+.item-3 {
+    background-color: blue;
+}
+.item-4 {
+    background-color: blue;
+}
+.item-5 {
+    background-color: blue;
+}
+.item-6 {
+    background-color: lightsteelblue;
+}
+.item-7 {
+    background-color: lightsteelblue;
+}
+.item-8 {
+    background-color: lightsteelblue;
+}
+.item-9 {
+    background-color: lightsteelblue;
+}
+.item-10 {
+    background-color: lightsteelblue;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: repeat(5, 100px);
+	grid-template-rows: repeat(2, 100px);
+	grid-gap: 25px;
+	background-color: lightblue;
+	padding: 25px;
+	width: 600px;
+}
